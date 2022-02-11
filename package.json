@@ -1,0 +1,25 @@
+{
+  "name": "horizon-dnb",
+  "displayName": "Horizon Extended Theme",
+  "description": "A dark theme based on the Horizon theme.",
+  "version": "0.0.1",
+  "publisher": "dnb",
+  "engines": {
+    "vscode": "^1.55.0"
+  },
+  "icon": "logo.png",
+  "author": {
+    "name": "Patrick Kollitsch",
+    "url": "https://davids-neighbour.com"
+  },
+  "repository": "https://github.com/davidsneighbour/horizon-dnb",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Horizon DNB",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Horizon-DNB-color-theme.json"
+      }
+    ]
+  }
+}
